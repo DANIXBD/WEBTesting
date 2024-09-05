@@ -1,0 +1,163 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+        position: a;
+        z-index: 1; /* change the z-index to 1 */
+      
+}
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.gfycat.com%2FSinfulBlindHummingbird-max-1mb.gif&f=1&nofb=1&ipt=7da10b17d46f8980f212391927e3048d1ca6a4cfb7e0c5722b1f5ecbe4b24141&ipo=images);
+    background-size: cover;
+    font-family: "ＭＳ Ｐゴシック";
+     color:royalblue
+  }
+  
+
+  
+  
+  
+td, th {
+    border: 1px solid #040202;
+    text-align: left;
+    padding: 20px 20px; /* increase top/bottom padding to accommodate larger font */
+    color: white;
+    font-size: 24px; /* increase font size */
+    font-family: "ＭＳ Ｐゴシック";
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+th {
+    background-color: #0d4ebf;
+}
+
+
+.game-info {
+    padding: 20px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.game-info h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.game-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.game-screenshots {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.game-screenshots::-webkit-scrollbar {
+    display: none;
+}
+
+.game-screenshots img {
+    width: 200px;
+    height: auto;
+    scroll-snap-align: center;
+    margin-right: 10px;
+}
+
+tr {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+tr:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+td {
+    background-color: rgba(34, 34, 34, 0.20);
+    padding: 20px;
+}
+
+.background-image {
+    pointer-events: none;
+  }
+
+
+  tr {
+    background-image: url(background_image);
+    background-size: cover;
+    position: relative;
+  }
+  
+  tr::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.15);
+    z-index: 1;
+  }
+  
+  td {
+    position: relative;
+    z-index: 2;
+    color: rgb(179, 183, 255);
+    padding: 10px;
+  }
+
+  #selected-images-table td img {
+    width: 470px;
+    height: 280px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  #search {
+    background-color: #2f0976;
+    border: #0d4ebf;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 16px;
+    height: 40px;
+    padding: 8px;
+    width: 300px;
+  }
+  
+  #search:hover, #search:focus {
+    border: 1.5px solid #0b9688;
+    background-color: rgb(10, 65, 217);
+  }
+
+  .delete-btn {
+    display: none; /* hide the button by default */
+  }
+  
+  .image-container:hover .delete-btn {
+    display: block; /* display the button on hover */
+  }
+  
+  
+
+
+
+
+
